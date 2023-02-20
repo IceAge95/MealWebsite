@@ -80,7 +80,7 @@ async function relatedRecipes(category) {
   relatedArray = newRelatedArray;
   for (let i = 0; i < relatedArray.length; i++) {
     relatedContainer.innerHTML += ` <div class="related-card">
-    <a href="/meal-page.html?id=${relatedArray[i].id}"><div class="related-title">${relatedArray[i].title}</div></a>
+    <a href="/MealWebsite/meal-page.html?id=${relatedArray[i].id}"><div class="related-title">${relatedArray[i].title}</div></a>
     <div class="related-category">${relatedArray[i].category}</div>
     <img src=${relatedArray[i].image} class="related-card-image"
         alt="">

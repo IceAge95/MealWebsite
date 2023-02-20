@@ -143,7 +143,7 @@ async function mealNavSearch(query) {
   navMealArray = newNavMealArray.sort();
   for (i = 0; i < navMealArray.length; i++) {
     let link = document.createElement("a");
-    link.href = `meal-page.html?id=${navMealArray[i].mealId}`;
+    link.href = `/MealWebsite/meal-page.html?id=${navMealArray[i].mealId}`;
     link.classList.add("link");
     let li = document.createElement("li");
     li.setAttribute("data-id", navMealArray[i].mealId);
