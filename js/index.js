@@ -39,7 +39,7 @@ function renderCategory(categoryArray) {
     <div class="main-card">
     <a href="/category-page.html?c=${categoryArray[i].category}"><div class="category-title">${categoryArray[i].title}</div></a>
        <img src=${categoryArray[i].image} alt="Beef" class="category-image">
-       <a href="/category-page.html?c=${categoryArray[i].category}"><button class="main-button">Explore</button></a>
+       <a href="./category-page.html?c=${categoryArray[i].category}"><button class="main-button">Explore</button></a>
     </div>
     `;
   }
