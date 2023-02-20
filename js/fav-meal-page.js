@@ -19,7 +19,7 @@ function renderFavMeal() {
   favMealContainer.innerHTML = "";
   for (let i = 0; i < favMealArray.length; i++) {
     favMealContainer.innerHTML += `    <div class="fav-card">
-    <a href="/meal-page.html?id=${favMealArray[i].id}"><div class="fav-title">${favMealArray[i].title}</div></a>
+    <a href="./meal-page.html?id=${favMealArray[i].id}"><div class="fav-title">${favMealArray[i].title}</div></a>
           <div class="fav-category">${favMealArray[i].category}</div>
           <img src=${favMealArray[i].image} class="fav-img" alt="">
           <button class="fav-button" onClick="removeFav(${favMealArray[i].id})"><i class="fa-solid fa-heart heart-icon clicked"></i></button>
