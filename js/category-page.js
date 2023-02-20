@@ -23,7 +23,7 @@ async function categoryMeal() {
   favMealContainer.innerHTML = "";
   for (let i = 0; i < data.meals.length; i++) {
     favMealContainer.innerHTML += `    <div class="fav-card">
-    <a href="/meal-page.html?id=${data.meals[i].idMeal}"><div class="fav-title">${data.meals[i].strMeal}</div></a>
+    <a href="/MealWebsite/meal-page.html?id=${data.meals[i].idMeal}"><div class="fav-title">${data.meals[i].strMeal}</div></a>
           <div class="fav-category">${categoryName}</div>
           <img src=${data.meals[i].strMealThumb} class="fav-img" alt="${data.meals[i].strMealThumb}">
     `;
