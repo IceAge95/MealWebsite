@@ -1,0 +1,155 @@
+/* variables */
+
+:root {
+  --primary-color: #fbb726;
+  --secondary-color: #000000;
+  --background-color: #fffcf7;
+  --category-color: #cecccc;
+  --button-background-color: #ffffff;
+}
+
+/* tags */
+
+h2 {
+  font-size: 2vw;
+}
+
+/* classess */
+
+/* meal main section */
+
+.meal-main {
+  width: 100%;
+  padding: 2vw;
+  display: flex;
+}
+.meal-details {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--button-background-color);
+  border-radius: 0.5vw;
+  width: 40%;
+  margin: 2vw;
+}
+.meal-title {
+  display: flex;
+  justify-content: space-between;
+  color: var(--secondary-color);
+}
+.meal-category {
+  color: var(--primary-color);
+  margin: 0 2vw;
+  font-size: 1.5vw;
+}
+.meal-main-card {
+  display: flex;
+  flex-direction: column;
+}
+.meal-main-description {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.fav-button {
+  border-radius: 50%;
+  background-color: var(--button-background-color);
+  border: none;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.clicked {
+  color: var(--primary-color);
+}
+.meal-main-ingredients {
+  display: flex;
+  flex-wrap: wrap;
+}
+.meal-main-image {
+  width: 100%;
+  border-radius: 4vw;
+  padding: 2vw;
+}
+.meal-item-title,
+.fav-button {
+  font-size: 2vw;
+  padding: 1.5vw;
+}
+.meal-video {
+  padding: 1vw;
+  width: 100%;
+  height: 30vw;
+}
+.meal-instruction {
+  padding: 1vw;
+}
+.ingredients-card {
+  width: 25%;
+  background-color: var(--button-background-color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  margin: 1vw;
+  text-align: center;
+  cursor: pointer;
+}
+.ingredients-card:hover {
+  background-color: var(--primary-color);
+}
+.ingredients-image {
+  width: 100%;
+}
+.ingredients-measure {
+  color: var(--category-color);
+}
+
+/* related section */
+
+.related {
+  font-size: 2vw;
+  padding-left: 2vw;
+}
+.related-recipies {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+}
+.related-container {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.related-card {
+  background-color: var(--button-background-color);
+  border-radius: 1vw;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 20%;
+}
+.related-card-image {
+  border-radius: 2vw;
+  width: 100%;
+  padding: 1vw;
+}
+.related-title {
+  color: var(--secondary-color);
+  padding: 1vw 1vw;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+.related-title:hover {
+  color: var(--primary-color);
+}
+
+.related-category {
+  color: var(--category-color);
+  padding: 0 1vw;
+  font-size: 1.3vw;
+}
+.meal-item-data {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: sticky;
+  top: 30px;
+}

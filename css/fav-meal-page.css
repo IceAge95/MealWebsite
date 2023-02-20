@@ -1,0 +1,83 @@
+/* variables */
+
+:root {
+  --background-color: #fffcf7;
+  --primary-color: #fbb726;
+  --category-color: #cecccc;
+  --card-background: #ffffff;
+  --button-background-color: #ffffff;
+  --secondary-color: #000000;
+}
+
+/* classes */
+
+/* fav meal section */
+
+.fav-meal-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5vw;
+}
+
+/* fav meal card */
+
+.fav-card {
+  width: 20%;
+  background-color: var(--card-background);
+  border-radius: 1vw;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  margin: 1vw 2vw;
+}
+.fav-img {
+  width: 100%;
+  border-radius: 2vw;
+}
+.active {
+  color: var(--primary-color);
+}
+.fav-title {
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 1.2vw;
+  padding-bottom: 0.5vw;
+  cursor: pointer;
+}
+.fav-title:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.2vw;
+  padding-bottom: 0.5vw;
+}
+.fav-category {
+  color: var(--category-color);
+  padding-bottom: 0.5vw;
+}
+.fav-button {
+  border-radius: 50%;
+  background-color: var(--button-background-color);
+  border: none;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.clicked {
+  color: var(--primary-color);
+}
+
+/* empty fav container  */
+
+.empty-fav-container {
+  width: 100%;
+  color: var(--category-color);
+  text-align: center;
+  font-size: 5vw;
+}
+.ghost-icon {
+  font-size: 5vw;
+}
+.head-title {
+  padding: 3vw 5.5vw;
+  font-size: 3vw;
+}

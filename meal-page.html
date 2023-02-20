@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | Food Recipes</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/meal-page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/f6545ee271.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="navbar">
+        <div class="nav-links">
+            <div class="logo"><img src="images/logo.png" class="logo-image" alt="logo"></div>
+            <a href="/index.html" class="favorites"> Home</a>
+            <a href="/fav-meal-page.html" class="favorites"> Favorites</a>
+        </div>
+        <div class="search-section">
+            <div class="nav-search-box">
+                <input type="text" name="search" placeholder="Search Recipe" class="search-input">
+                <div class="nav-search-list nav-search-font">
+                </div>
+            </div>
+            <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+
+    <!-- meal main section -->
+    <div class="meal-main">
+        <div class=" meal-details">
+            <div class="meal-item-data">
+                <div class="meal-title">
+                    <div class="meal-item-title"></div>
+                    <button class="fav-button"><i class="fa-solid fa-heart heart-icon"></i></button>
+                </div>
+                <div class="meal-category"></div>
+                <div class="meal-main-card">
+                    <div class="meal-main-img"><img src="" class="meal-main-image" alt="meal"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="meal-main-description">
+            <h2>Ingredients</h2>
+            <div class="meal-main-ingredients">
+
+            </div>
+            <h2>Instructions</h2>
+            <div class="meal-instruction"></div>
+
+            <iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" class="meal-video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="related-recipies">
+        <h2 class="related"> </h2>
+        <div class="related-container">
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer-section">
+        Food Recipes @
+        <script>document.write(new Date().getFullYear())</script>
+    </div>
+    <script src="js/meal-page.js"></script>
+</body>
+
+</html>
