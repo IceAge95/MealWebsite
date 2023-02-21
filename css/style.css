@@ -132,7 +132,7 @@ h2 {
   padding: 5.5vw;
 }
 .intro-image {
-  background-image: url("./images/background-image.png");
+  background-image: url("../images/background-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
